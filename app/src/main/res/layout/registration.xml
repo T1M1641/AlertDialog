@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/dialog"
+    android:background="@drawable/zxc">
+
+    <RelativeLayout
+        android:background="@drawable/rounded2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ed2"
+        android:id="@+id/btn2"
+        android:layout_width="391dp"
+        android:layout_height="40dp"
+        android:text="Зарегистрироваться"
+        android:background="@drawable/rounded"
+        android:textColor="#00008B"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="31dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/ed1"
+            android:layout_width="391dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/txt2"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded1"
+            android:ems="10"
+            android:hint="Введите логин"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/ed1"
+            android:id="@+id/ed2"
+            android:textColor="#000000"
+            android:layout_width="391dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded1"
+            android:ems="10"
+            android:hint="Введите пароль"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="116dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
